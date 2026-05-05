@@ -1,0 +1,12 @@
+{
+  "name": "aura-plus",
+  "scripts": {
+    "dev": "cd client && npm run dev",
+    "client:install": "cd client && npm install",
+    "dev:setup": "npm install && npm run client:install",
+    "dev:clean": "if exist client\\.next rmdir /s /q client\\.next && if exist client\\out rmdir /s /q client\\out"
+  },
+  "dependencies": {
+    "mongoose": "^7.5.0"
+  }
+}
